@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="700" viewBox="0 0 1600 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sustainability">
+  <defs>
+    <linearGradient id="f3g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#006400"/>
+      <stop offset="100%" stop-color="#00a651"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#f3g)"/>
+  <g opacity="0.18" fill="#ffffff">
+    <circle cx="320" cy="180" r="180"/>
+    <circle cx="1260" cy="520" r="260"/>
+  </g>
+  <g transform="translate(220, 240)" fill="#fff">
+    <rect x="0" y="140" width="900" height="10" rx="5" opacity="0.4"/>
+    <g>
+      <path d="M120,160 h360 a60,60 0 0 0 60-60 v-40 a40,40 0 0 0-40-40 h-380 a60,60 0 0 0-60,60 v40 a40,40 0 0 0 40,40z" opacity="0.35"/>
+      <circle cx="190" cy="180" r="36" fill="#fff"/>
+      <circle cx="470" cy="180" r="36" fill="#fff"/>
+      <path d="M575,115 h40 v-25 a8,8 0 0 1 8-8 h12 a8,8 0 0 1 8,8 v25h40" stroke="#fff" stroke-width="10" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+  <g fill="#ffffff" font-family="Arial, Helvetica, sans-serif">
+    <text x="220" y="180" font-size="64" font-weight="700">Sustainable Mobility</text>
+    <text x="220" y="236" font-size="32" opacity="0.92">Lower emissions with EV adoption</text>
+  </g>
+  <g transform="translate(1160,120)" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round">
+    <path d="M40 0 v120"/>
+    <path d="M0 80 h80"/>
+  </g>
+</svg>

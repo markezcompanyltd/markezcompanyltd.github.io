@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cost Savings">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff9900"/>
+      <stop offset="100%" stop-color="#ffcc00"/>
+    </linearGradient>
+  </defs>
+  <circle cx="80" cy="80" r="70" fill="url(#grad)" stroke="#e6b800" stroke-width="4"/>
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+    <path d="M45 95c10 12 25 20 40 20 20 0 30-8 30-20 0-12-10-18-30-18-20 0-30-6-30-18 0-12 10-20 30-20 12 0 24 4 34 12"/>
+    <path d="M80 36v88"/>
+  </g>
+  <g fill="#003366" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="80" y="90" font-size="28">GH₵</text>
+  </g>
+</svg>

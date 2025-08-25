@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="700" viewBox="0 0 1600 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="UMAC EV Hero">
+  <defs>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#003366"/>
+      <stop offset="100%" stop-color="#0066cc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#heroGrad)"/>
+  <g opacity="0.15">
+    <circle cx="300" cy="200" r="220" fill="#ffffff"/>
+    <circle cx="1100" cy="520" r="260" fill="#ffffff"/>
+  </g>
+  <g transform="translate(200, 220)">
+    <rect x="0" y="140" width="900" height="10" rx="5" fill="rgba(255,255,255,0.35)"/>
+    <g transform="translate(0,0)">
+      <path d="M120,160 h360 a60,60 0 0 0 60-60 v-40 a40,40 0 0 0-40-40 h-380 a60,60 0 0 0-60,60 v40 a40,40 0 0 0 40,40z" fill="rgba(255,255,255,0.25)"/>
+      <circle cx="190" cy="180" r="36" fill="#e6f2ff"/>
+      <circle cx="470" cy="180" r="36" fill="#e6f2ff"/>
+      <path d="M575,115 h40 v-25 a8,8 0 0 1 8-8 h12 a8,8 0 0 1 8,8 v25 h40" stroke="#e6f2ff" stroke-width="10" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+  <g fill="#ffffff" font-family="Arial, Helvetica, sans-serif">
+    <text x="200" y="180" font-size="68" font-weight="700">UMAC</text>
+    <text x="200" y="240" font-size="34" opacity="0.9">EV for Everyone</text>
+  </g>
+  <g transform="translate(1220,120)">
+    <path d="M80 0 L40 90 H95 L50 180 L150 80 H95 L140 0 Z" fill="#ffcc00" stroke="#ffb300" stroke-width="6" opacity="0.9"/>
+  </g>
+</svg>
