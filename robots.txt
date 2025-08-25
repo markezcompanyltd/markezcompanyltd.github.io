@@ -1,0 +1,5 @@
+# robots.txt for UMAC - EV for Everyone
+User-agent: *
+Allow: /
+
+Sitemap: ./sitemap.xml

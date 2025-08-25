@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UMAC - EV for Everyone</title>
+    <meta name="description" content="UMAC makes electric vehicles accessible with affordable plans, nationwide charging, and a seamless customer experience.">
+    <link rel="canonical" href="index.html">
+    <link rel="icon" href="static/imgs/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="static/imgs/favicon.svg">
+    <meta name="theme-color" content="#003366">
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    
+    
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta property="og:title" content="UMAC - EV for Everyone">
+    <meta property="og:description" content="Affordable EV plans, wide selection, and a nationwide charging network.">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <noscript><div class="noscript-warning">JavaScript is disabled. Some interactive features may not work.</div></noscript>
+    <header>
+        <nav>
+            <div class="logo"><img src="static/imgs/logo.png" alt="UMAC Logo" width="150px" height="30px"></div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="payment.html">Payment Plans</a></li>
+                <li><a href="http://127.0.0.1:5000" target="_blank">EV Users Portal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="carousel">
+            <div class="carousel-container" id="carousel-container">
+                <div class="carousel-slide slide-1">
+                    <img class="slide-bg" src="static/imgs/welcome.jpg" alt="Electric vehicle at a charging station">
+                    <h1>Welcome to UMAC</h1><br>
+                    <p>Your journey to owning an electric vehicle begins right here—with a seamless, affordable experience designed around you. From flexible plans to expert support, we make every step toward EV ownership intuitive, empowering, and within reach.</p>
+                    <a href="payment.html" class="cta-button">See Our Plans</a>
+                </div>
+                <div class="carousel-slide slide-2">
+                    <img class="slide-bg" src="static/imgs/affordslide.jpg" alt="Affordable EV solutions">
+                    <h1>Affordable EV Solutions</h1>
+                    <p>We believe electric mobility should be within reach for everyone. That’s why we offer inclusive payment options—whether you prefer monthly installments, lease-to-own paths, or bundled packages with home charging. No hidden fees, no compromise on quality—just a clear, affordable way to drive electric.</p>
+                    <a href="payment.html" class="cta-button">View Plans</a>
+                </div>
+                <div class="carousel-slide slide-3">
+                    <img class="slide-bg" src="static/imgs/nation.jpg" alt="Nationwide charging network">
+                    <h1>Nationwide Charging Network</h1>
+                    <p>Enjoy access to over 1,000 electric vehicle charging stations strategically located across Ghana—from Accra to Kumasi, Takoradi to Tamale. Whether you're commuting, road-tripping, or running errands, our expansive network ensures you’re never far from a reliable power source.</p>
+                    <a href="#features" class="cta-button">Learn More</a>
+                </div>
+            </div>
+            <button class="carousel-arrow prev" onclick="prevSlide()"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i><span class="sr-only">Previous</span></button>
+            <button class="carousel-arrow next" onclick="nextSlide()"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i><span class="sr-only">Next</span></button>
+            <div class="carousel-nav" id="carousel-nav">
+                <div class="carousel-dot active" onclick="currentSlide(0)"></div>
+                <div class="carousel-dot" onclick="currentSlide(1)"></div>
+                <div class="carousel-dot" onclick="currentSlide(2)"></div>
+            </div>
+        </div>
+
+        <section id="features">
+            <h2>Why Choose UMAC?</h2>
+            <div class="features-container">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <img src="static/imgs/afford.jpg" alt="Affordable Plans icon" />
+                    </div>
+                    <h3>Affordable Plans</h3>
+                    <p>Drive your EV dreams forward with payment options tailored to your budget. Whether you're looking for low monthly installments or upfront savings, we make it easy to own without cutting corners on performance, safety, or style.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <img src="static/imgs/selbook.jpg" alt="Wide Selection icon" height="100%" />
+                    </div>
+                    <h3>Choose From Our Top EV Models</h3>
+                    <p>Whether you're after sleek city cruisers, rugged SUVs, or high-performance electric sedans, we’ve got you covered. Choose from a wide selection of over 50 electric vehicle models from trusted global manufacturers—each combining innovation, reliability, and style.</p>
+                    <hr>
+                    <a href="cars.html" class="cta-button">Explore Our Cars</a>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <img src="static/imgs/powers.jpg" alt="Nationwide Network icon" />
+                    </div>
+                    <h3>Nationwide Network</h3>
+                    <p>With access to over 1,000 charging stations nationwide, your electric journey is always within reach. Whether you're commuting in Accra, exploring Cape Coast, or heading north, our network ensures reliable, fast, and convenient charging wherever the road takes you.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="buy-steps">
+            <h2>Steps to Buy our EV</h2>
+            <div class="buy-steps-container">
+                <div class="steps-box">
+                    <div class="step">
+                        <div class="step-number">Step One</div>
+                        <div class="step-content">
+                            <h3>Find the right model</h3>
+                            <p>Browse our curated selection of electric vehicles and evaluate their range, dimensions, and key features—empowering you to choose the model that best aligns with your lifestyle, preferences, and driving needs.</p>
+                        </div>
+                        <div class="step-vid">
+                            <video  autoplay loop muted playsinline width="500" height="300" controls>
+                                <source src="static/imgs/select.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="step-vid2">
+                            <video  autoplay loop muted playsinline width="500" height="300" controls>
+                                <source src="static/imgs/select.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-vid">
+                            <video  autoplay loop muted playsinline width="500" height="300" controls>
+                                <source src="static/imgs/payplan.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="step-number">Step Two</div>
+                        <div class="step-content">
+                            <h3>Choose a payment plan</h3>
+                            <p>Choose a plan that fits your lifestyle and financial goals—opt for flexible monthly payments, a long-term lease, or a bundled package that includes a home EV charger for added convenience and value.</p>
+                        </div>
+                        <div class="step-vid2">
+                            <video  autoplay loop muted playsinline width="500" height="300" controls>
+                                <source src="static/imgs/payplan.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">Step Three</div>
+                        <div class="step-content">
+                            <h3>Schedule a test drive</h3>
+                            <p>Schedule a test drive at a convenient location or request a personalized home demo to explore the EV’s performance, comfort, and smart features. It’s the perfect way to discover how electric mobility fits seamlessly into your lifestyle.</p>
+                        </div>
+                        <div class="step-vid">
+                            <video  autoplay loop muted playsinline width="500" height="300" controls>
+                                <source src="static/imgs/testdrive.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="step-vid2">
+                            <video  autoplay loop muted playsinline width="500" height="300" controls>
+                                <source src="static/imgs/testdrive.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-vid">
+                            <video  autoplay loop muted playsinline width="500" height="300" controls>
+                                <source src="static/imgs/deli.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="step-number">Step Four</div>
+                        <div class="step-content">
+                            <h3>Delivery & setup</h3>
+                            <p>We take care of everything—from delivering your EV to your doorstep, to professionally installing your home charging station if selected. Our onboarding support ensures you’re fully equipped to drive, charge, and maintain your vehicle with confidence from day one.</p>
+                        </div>
+                        <div class="step-vid2">
+                            <video  autoplay loop muted playsinline width="500" height="300" controls>
+                                <source src="static/imgs/deli.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about-container">
+                <div class="about-grid">
+                    <!-- Left Image -->
+                    <div class="about-img">
+                        <img src="https://images.unsplash.com/photo-1531973576160-7125cd663d86?q=80&w=2070&auto=format&fit=crop" 
+                            onerror="this.onerror=null;this.src='https://placehold.co/600x400/cccccc/FFFFFF?text=Image+Not+Found';"
+                            alt="A team of professionals collaborating in a modern office" class="rounded-lg shadow-2xl">
+                    </div>
+                    <!-- Right Content -->
+                    <div class="about-content">
+                        <h2>About UMAC Mobility</h2>
+                        <p>
+                            UMAC is an innovative mobility enterprise launching an integrated platform to synergize EV leasing and financing with the deployment of strategically situated charging stations across West Africa. As the region confronts escalating fuel costs and environmental challenges, we present a transformative solution: affordable access to electric vehicles complemented by reliable charging infrastructure.
+                        </p>
+                        <!-- Mission Statement -->
+                        <div class="ab-mission">
+                            <h3>Our Mission</h3>
+                            <p>To make electric vehicle adoption seamless, affordable, and sustainable across West Africa by providing innovative leasing and financing solutions, supported by a growing network of smart, reliable charging stations.</p>
+                        </div>
+                        <a href="about.html" class="cta-button">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>What Our Customers Will Say</h2>
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <p>"Switching to an EV with UMAC will be the best decision I’ll make. The process will be smooth, and the car will be amazing!"</p>
+                    <p class="author">- Sarah J., California</p>
+                </div>
+                <div class="testimonial">
+                    <p>"The customer service at UMAC will be outstanding. Looking at their payment plan, I believe they helped me find the perfect EV for my family's needs."</p>
+                    <p class="author">- Michael T., New York</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta">
+            <h2>Ready to Make the Switch?</h2>
+            <p>Join thousands of satisfied customers who have made the switch to electric with UMAC.</p>
+            <a href="payment.html" class="cta-button">Get Started Today</a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <div class="logo">UMAC</div>
+                <p>EV for Everyone. Affordable plans, nationwide charging, and sustainable mobility.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="payment.html">Payment Plans</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="cars.html">Our Fleets</a></li>
+                    <li><a href="http://127.0.0.1:5000" target="_blank" rel="noopener">EV Portal</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <ul>
+                    <li>Email: support@umac.com</li>
+                    <li>Phone: +1 (800) 555-0123</li>
+                    <li>Address: 123 EV Lane, New York, NY</li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <p>Subscribe for updates and offers.</p>
+                <form class="newsletter-form" onsubmit="return false;">
+                    <input type="email" placeholder="Your email" aria-label="Email address">
+                    <button type="submit" class="cta-button">Subscribe</button>
+                </form>
+                <div class="footer-social">
+                    <a href="#" aria-label="Twitter" class="social-icon"><i class="fa-brands fa-twitter"></i><span class="sr-only">Twitter</span></a>
+                    <a href="#" aria-label="LinkedIn" class="social-icon"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a>
+                    <a href="#" aria-label="Instagram" class="social-icon"><i class="fa-brands fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span id="year">2025</span> UMAC. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script defer src="static/js/main.js"></script>
+</body>
+</html>

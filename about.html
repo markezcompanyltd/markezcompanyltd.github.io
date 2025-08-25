@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - UMAC Mobility Ghana Ltd</title>
+    
+    <meta name="description" content="Compare UMAC EV payment plans. Flexible, affordable options for electric vehicle ownership with nationwide charging.">
+    <link rel="canonical" href="about.html">
+    <link rel="icon" href="static/imgs/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="static/imgs/favicon.svg">
+    <meta name="theme-color" content="#003366">
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="UMAC - About Us">
+    <meta property="og:description" content="Flexible EV  with maintenance, insurance, and charging benefits.">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        green: {
+                            500: '#003366', // Custom blue color
+                        },
+                        gray: {
+                            100: '#005588', // Light gray
+                            800: '#003366', // Dark gray
+                            600: '#ffffff', // Medium gray
+                            50: '#00f2f2',  // Very light gray
+                            700: '#f000ff',  // Extra dark gray
+                        },
+                    },
+                },
+            },
+        };
+    </script>
+
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #10B981, #3B82F6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-bg {
+            background-image: url('https://images.unsplash.com/photo-1621994342991-0aa153451462?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-gray-800">
+                UMAC
+            </a>
+            <div class="hidden md:flex items-center space-x-6 font-medium">
+                <a href="#mission" class="text-gray-800 hover:text-green-500 transition duration-300">Our Mission</a>
+                <a href="#solution" class="text-gray-800 hover:text-green-500 transition duration-300">Our Solution</a>
+                <a href="#impact" class="text-gray-800 hover:text-green-500 transition duration-300">Our Impact</a>
+                <a href="#footer" class="bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-600 transition duration-300 shadow-lg">
+                    Get Started
+                </a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-gray-800">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white px-6 pb-4">
+            <a href="#mission" class="block py-2 text-gray-1000 hover:text-green-500">Our Mission</a>
+            <a href="#solution" class="block py-2 text-gray-1000 hover:text-green-500">Our Solution</a>
+            <a href="#impact" class="block py-2 text-gray-1000 hover:text-green-500">Our Impact</a>
+            <a href="#contact" class="block mt-4 bg-green-500 text-white text-center px-5 py-2 rounded-full hover:bg-green-500">Get Started</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-bg relative text-white">
+            <div class="absolute inset-0 bg-black opacity-60"></div>
+            <div class="relative container mx-auto px-6 py-24 md:py-40 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">Driving West Africa's Sustainable Future</h1>
+                <p class="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto">UMAC Mobility is pioneering an integrated platform to make electric vehicles accessible, affordable, and sustainable across the region.</p>
+            </div>
+        </section>
+
+        <!-- Mission and Vision Section -->
+        <section id="mission" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="text-4xl font-bold mb-4 gradient-text">Our Mission & Vision</h2>
+                        <p class="text-gray-1000 mb-6">We are dedicated to revolutionizing transportation by tackling the core challenges of cost and infrastructure, empowering a seamless transition to clean energy for all.</p>
+                        <div class="bg-gray-50 p-6 rounded-lg border-l-4 border-green-500">
+                            <h3 class="font-bold text-xl mb-2">Our Mission</h3>
+                            <p class="text-gray-800">To make electric vehicle adoption seamless, affordable, and sustainable across West Africa by providing innovative leasing and financing solutions, supported by a growing network of smart, reliable charging stations.</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-lg border-l-4 border-blue-500 mt-6">
+                            <h3 class="font-bold text-xl mb-2">Our Vision</h3>
+                            <p class="text-gray-800">To become West Africa’s foremost integrated mobility provider by 2030, advancing the region’s sustainable transportation revolution through financial innovation, infrastructure development, and community-centric solutions.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <video src="/static/imgs/v2.mp4" controls autoplay loop muted playsinline="Person holding car keys" class="rounded-lg shadow-xl"></video>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Problem Section -->
+        <section class="py-20 bg-gray-100">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">The Challenge We Address</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto mb-12">Rapid urbanization in West Africa has led to a transportation crisis defined by high costs, pollution, and limited access. We see these challenges as opportunities for transformative change.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Problem Card -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="text-red-500 text-4xl mb-3"><i class="fas fa-dollar-sign"></i></div>
+                        <h3 class="font-bold text-lg">High Upfront Costs</h3>
+                        <p class="text-gray-500 text-sm">EVs in Ghana cost GHS 180,000-300,000, making them inaccessible for the average consumer.</p>
+                    </div>
+                    <!-- Problem Card -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="text-red-500 text-4xl mb-3"><i class="fas fa-charging-station"></i></div>
+                        <h3 class="font-bold text-lg">Lack of Infrastructure</h3>
+                        <p class="text-gray-500 text-sm">Fewer than 60 public chargers exist in Ghana, creating significant range anxiety for drivers.</p>
+                    </div>
+                    <!-- Problem Card -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="text-red-500 text-4xl mb-3"><i class="fas fa-hand-holding-usd"></i></div>
+                        <h3 class="font-bold text-lg">Limited Financing</h3>
+                        <p class="text-gray-500 text-sm">Less than 12% of adults have access to auto loans, with no specific products designed for EVs.</p>
+                    </div>
+                    <!-- Problem Card -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="text-red-500 text-4xl mb-3"><i class="fas fa-smog"></i></div>
+                        <h3 class="font-bold text-lg">Environmental Impact</h3>
+                        <p class="text-gray-500 text-sm">Aging, polluting vehicles contribute to poor air quality and significant CO₂ emissions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Solution Section -->
+        <section id="solution" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-gray-900">Our Integrated Three-Component Solution</h2>
+                    <p class="text-gray-900 mt-4 max-w-3xl mx-auto">UMAC's innovative business model directly tackles the barriers to EV adoption by synergizing vehicles, charging, and financing into one seamless platform.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Solution Card 1 -->
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-lg text-center border-t-4 border-green-500">
+                        <div class="text-green-500 text-5xl mb-4"><i class="fas fa-car"></i></div>
+                        <h3 class="text-2xl font-bold mb-2">EV Sales & Leasing</h3>
+                        <p class="text-gray-600">Making ownership accessible through affordable, flexible models like monthly leasing and lease-to-own programs for individuals and fleets.</p>
+                    </div>
+                    <!-- Solution Card 2 -->
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-lg text-center border-t-4 border-blue-500">
+                        <div class="text-blue-500 text-5xl mb-4"><i class="fas fa-bolt"></i></div>
+                        <h3 class="text-2xl font-bold mb-2">Charging Stations</h3>
+                        <p class="text-gray-600">Building a dependable, scalable network of public and private charging stations, including solar-powered options to ensure off-grid reliability.</p>
+                    </div>
+                    <!-- Solution Card 3 -->
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-lg text-center border-t-4 border-yellow-500">
+                        <div class="text-yellow-500 text-5xl mb-4"><i class="fas fa-credit-card"></i></div>
+                        <h3 class="text-2xl font-bold mb-2">Accessible Financing</h3>
+                        <p class="text-gray-600">Providing inclusive, low-interest financing plans for both vehicles and charging infrastructure, using alternative credit scoring to serve more people.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Impact Section -->
+        <section id="impact" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-gray-900">Our Positive Contributions</h2>
+                    <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Our strategy is designed to deliver measurable benefits across environmental, economic, social, and technological spheres.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Impact Card -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="text-green-500 text-4xl mb-4"><i class="fas fa-leaf"></i></div>
+                        <h3 class="font-bold text-xl mb-2">Environmental</h3>
+                        <p class="text-gray-800">An annual reduction of up to 50,000 tons of CO₂, improving air quality and creating quieter urban environments.</p>
+                    </div>
+                    <!-- Impact Card -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="text-blue-500 text-4xl mb-4"><i class="fas fa-chart-line"></i></div>
+                        <h3 class="font-bold text-xl mb-2">Economic</h3>
+                        <p class="text-gray-800">Generating new jobs, decreasing national fuel imports, and reducing operational costs for businesses.</p>
+                    </div>
+                    <!-- Impact Card -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="text-yellow-500 text-4xl mb-4"><i class="fas fa-users"></i></div>
+                        <h3 class="font-bold text-xl mb-2">Social</h3>
+                        <p class="text-gray-800">Providing equitable access to clean mobility, enhancing public health, and empowering youth and drivers.</p>
+                    </div>
+                    <!-- Impact Card -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="text-purple-500 text-4xl mb-4"><i class="fas fa-cogs"></i></div>
+                        <h3 class="font-bold text-xl mb-2">Technological</h3>
+                        <p class="text-gray-800">Implementing innovative smart charging systems, digital financial services, and data-driven urban planning.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section id="contact" class="py-20 bg-green-600 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-4">Join the Mobility Revolution</h2>
+                <p class="text-lg text-green-100 max-w-2xl mx-auto mb-8">Whether you are an individual, a business, or a potential partner, there is a place for you in West Africa's sustainable future. The future of mobility is electric, accessible, and now attainable.</p>
+                <a href="#" class="bg-white text-green-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition duration-300 shadow-xl transform hover:scale-105">
+                    Contact Us Today
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" id="footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <div class="logo">UMAC</div>
+                <p>EV for Everyone. Affordable plans, nationwide charging, and sustainable mobility.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="payment.html">Payment Plans</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="cars.html">Our Fleets</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="http://127.0.0.1:5000" target="_blank" rel="noopener">EV Portal</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <ul>
+                    <li>Email: support@umac.com</li>
+                    <li>Phone: +1 (800) 555-0123</li>
+                    <li>Address: 123 EV Lane, New York, NY</li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <p>Subscribe for updates and offers.</p>
+                <form class="newsletter-form" onsubmit="return false;">
+                    <input type="email" placeholder="Your email" aria-label="Email address">
+                    <button type="submit" class="cta-button">Subscribe</button>
+                </form>
+                <div class="footer-social">
+                    <a href="#" aria-label="Twitter" class="social-icon"><i class="fa-brands fa-twitter" aria-hidden="true"></i><span class="sr-only">Twitter</span></a>
+                    <a href="#" aria-label="LinkedIn" class="social-icon"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a>
+                    <a href="#" aria-label="Instagram" class="social-icon"><i class="fa-brands fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span id="year">2025</span> UMAC. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
